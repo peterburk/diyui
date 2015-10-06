@@ -1,0 +1,635 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>calendar</title>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+  <link rel="apple-touch-icon" href="../iphone/iui/ll-logo-iphone.png" />
+  <meta name="apple-touch-fullscreen" content="YES" />
+  <style type="text/css" media="screen">@import "../iphone/iui/iui.css";</style>
+  <script type="application/x-javascript" src="../iphone/iui/iui.js"></script>
+<script type="text/javascript">
+	iui.animOn = true;
+</script>
+
+</head>
+
+<body>
+
+    <div class="toolbar">
+        <h1 id="pageTitle"></h1>
+        <a id="backButton" class="button" href="#"></a>
+    </div>
+<!--Begin Calendar subpage:-->
+<ul id="home" title="Calendar" selected="true">
+	<li><a href="#Campus">Campus</a></li>
+	<li><a href="#Tags">Tags</a></li>
+	<li><a href="#Town">Town</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus subpage:-->
+<ul id="Campus" title="Campus">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/General.ics" target="_self">General.ics</a></li>
+	<li><a href="#Campus-Course">Course</a></li>
+	<li><a href="#Campus-LUSU">LUSU</a></li>
+	<li><a href="#Campus-Other">Other</a></li>
+	<li><a href="#Campus-Shops">Shops</a></li>
+	<li><a href="#Campus-Societies">Societies</a></li>
+	<li><a href="#Campus-University_Services">University Services</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Tags subpage:-->
+<ul id="Tags" title="Tags">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Tags/International.webloc" target="_self">International.webloc</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Town subpage:-->
+<ul id="Town" title="Town">
+	<li><a href="#Town-Academic">Academic</a></li>
+	<li><a href="#Town-Accommodation">Accommodation</a></li>
+	<li><a href="#Town-Artistic">Artistic</a></li>
+	<li><a href="#Town-Charities">Charities</a></li>
+	<li><a href="#Town-Classifieds">Classifieds</a></li>
+	<li><a href="#Town-Cultural">Cultural</a></li>
+	<li><a href="#Town-Natural_Health">Natural Health</a></li>
+	<li><a href="#Town-Political">Political</a></li>
+	<li><a href="#Town-Pubs">Pubs</a></li>
+	<li><a href="#Town-Recreational">Recreational</a></li>
+	<li><a href="#Town-Religious">Religious</a></li>
+	<li><a href="#Town-Restaurants">Restaurants</a></li>
+	<li><a href="#Town-Shops">Shops</a></li>
+	<li><a href="#Town-Sports">Sports</a></li>
+	<li><a href="#Town-Transport">Transport</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course subpage:-->
+<ul id="Campus-Course" title="Course">
+	<li><a href="#Campus-Course-Arts_and_Social_Sciences">Arts and Social Sciences</a></li>
+	<li><a href="#Campus-Course-Health_and_Medicine">Health and Medicine</a></li>
+	<li><a href="#Campus-Course-Lifelong_Learning_and_Widening_Participation">Lifelong Learning and Widening Participation</a></li>
+	<li><a href="#Campus-Course-Management">Management</a></li>
+	<li><a href="#Campus-Course-Science_and_Technology">Science and Technology</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-LUSU subpage:-->
+<ul id="Campus-LUSU" title="LUSU">
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Other subpage:-->
+<ul id="Campus-Other" title="Other">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Other/CARA.ics" target="_self">CARA.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Other/CCS2.ics" target="_self">CCS2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Other/CELT2.ics" target="_self">CELT2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Other/CELT5.ics" target="_self">CELT5.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Other/CET.ics" target="_self">CET.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Other/CET4.ics" target="_self">CET4.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Other/CET5.ics" target="_self">CET5.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Other/DELC.ics" target="_self">DELC.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Other/T.ics" target="_self">T.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Other/VB.ics" target="_self">VB.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Other/Z.ics" target="_self">Z.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Other/ZC.ics" target="_self">ZC.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Other/ZPG.ics" target="_self">ZPG.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Other/ZSOC.ics" target="_self">ZSOC.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Other/ZSS.ics" target="_self">ZSS.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Other/ZSTD.ics" target="_self">ZSTD.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Shops subpage:-->
+<ul id="Campus-Shops" title="Shops">
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Societies subpage:-->
+<ul id="Campus-Societies" title="Societies">
+	<li><a href="#Campus-Societies-Academic">Academic</a></li>
+	<li><a href="#Campus-Societies-Arts_and_Performance">Arts and Performance</a></li>
+	<li><a href="#Campus-Societies-Cultural">Cultural</a></li>
+	<li><a href="#Campus-Societies-Outdoor_and_Physical">Outdoor and Physical</a></li>
+	<li><a href="#Campus-Societies-Political">Political</a></li>
+	<li><a href="#Campus-Societies-Recreational">Recreational</a></li>
+	<li><a href="#Campus-Societies-Religious">Religious</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-University_Services subpage:-->
+<ul id="Campus-University_Services" title="University Services">
+</ul>
+<!--End subpage:-->
+<!--Begin Town-Academic subpage:-->
+<ul id="Town-Academic" title="Academic">
+</ul>
+<!--End subpage:-->
+<!--Begin Town-Accommodation subpage:-->
+<ul id="Town-Accommodation" title="Accommodation">
+</ul>
+<!--End subpage:-->
+<!--Begin Town-Artistic subpage:-->
+<ul id="Town-Artistic" title="Artistic">
+</ul>
+<!--End subpage:-->
+<!--Begin Town-Charities subpage:-->
+<ul id="Town-Charities" title="Charities">
+</ul>
+<!--End subpage:-->
+<!--Begin Town-Classifieds subpage:-->
+<ul id="Town-Classifieds" title="Classifieds">
+</ul>
+<!--End subpage:-->
+<!--Begin Town-Cultural subpage:-->
+<ul id="Town-Cultural" title="Cultural">
+</ul>
+<!--End subpage:-->
+<!--Begin Town-Natural_Health subpage:-->
+<ul id="Town-Natural_Health" title="Natural Health">
+</ul>
+<!--End subpage:-->
+<!--Begin Town-Political subpage:-->
+<ul id="Town-Political" title="Political">
+</ul>
+<!--End subpage:-->
+<!--Begin Town-Pubs subpage:-->
+<ul id="Town-Pubs" title="Pubs">
+</ul>
+<!--End subpage:-->
+<!--Begin Town-Recreational subpage:-->
+<ul id="Town-Recreational" title="Recreational">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Town/Recreational/Virtual Lancaster.webloc" target="_self">Virtual Lancaster.webloc</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Town-Religious subpage:-->
+<ul id="Town-Religious" title="Religious">
+</ul>
+<!--End subpage:-->
+<!--Begin Town-Restaurants subpage:-->
+<ul id="Town-Restaurants" title="Restaurants">
+</ul>
+<!--End subpage:-->
+<!--Begin Town-Shops subpage:-->
+<ul id="Town-Shops" title="Shops">
+</ul>
+<!--End subpage:-->
+<!--Begin Town-Sports subpage:-->
+<ul id="Town-Sports" title="Sports">
+</ul>
+<!--End subpage:-->
+<!--Begin Town-Transport subpage:-->
+<ul id="Town-Transport" title="Transport">
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Arts_and_Social_Sciences subpage:-->
+<ul id="Campus-Course-Arts_and_Social_Sciences" title="Arts and Social Sciences">
+	<li><a href="#Campus-Course-Arts_and_Social_Sciences-Applied_Social_Science">Applied Social Science</a></li>
+	<li><a href="#Campus-Course-Arts_and_Social_Sciences-English_and_Creative_Writing">English and Creative Writing</a></li>
+	<li><a href="#Campus-Course-Arts_and_Social_Sciences-European_Langugaes_and_Cultures">European Langugaes and Cultures</a></li>
+	<li><a href="#Campus-Course-Arts_and_Social_Sciences-Faculty_of_Arts_and_Social_Sciences_PG_Office">Faculty of Arts and Social Sciences PG Office</a></li>
+	<li><a href="#Campus-Course-Arts_and_Social_Sciences-History">History</a></li>
+	<li><a href="#Campus-Course-Arts_and_Social_Sciences-Lancaster_Institute_for_the_Contemporary_Arts">Lancaster Institute for the Contemporary Arts</a></li>
+	<li><a href="#Campus-Course-Arts_and_Social_Sciences-Law">Law</a></li>
+	<li><a href="#Campus-Course-Arts_and_Social_Sciences-Linguistics_and_English_Language">Linguistics and English Language</a></li>
+	<li><a href="#Campus-Course-Arts_and_Social_Sciences-Media_Film_and_Cultural_Studies">Media Film and Cultural Studies</a></li>
+	<li><a href="#Campus-Course-Arts_and_Social_Sciences-Philosophy">Philosophy</a></li>
+	<li><a href="#Campus-Course-Arts_and_Social_Sciences-Politics_Philosophy_and_Religion">Politics Philosophy and Religion</a></li>
+	<li><a href="#Campus-Course-Arts_and_Social_Sciences-Politics_and_International_Relations">Politics and International Relations</a></li>
+	<li><a href="#Campus-Course-Arts_and_Social_Sciences-Psychology">Psychology</a></li>
+	<li><a href="#Campus-Course-Arts_and_Social_Sciences-Religious_Studies">Religious Studies</a></li>
+	<li><a href="#Campus-Course-Arts_and_Social_Sciences-Sociology">Sociology</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Health_and_Medicine subpage:-->
+<ul id="Campus-Course-Health_and_Medicine" title="Health and Medicine">
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Lifelong_Learning_and_Widening_Participation subpage:-->
+<ul id="Campus-Course-Lifelong_Learning_and_Widening_Participation" title="Lifelong Learning and Widening Participation">
+	<li><a href="#Campus-Course-Lifelong_Learning_and_Widening_Participation-Educational_Research">Educational Research</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Management subpage:-->
+<ul id="Campus-Course-Management" title="Management">
+	<li><a href="#Campus-Course-Management-Accounting_and_Finance">Accounting and Finance</a></li>
+	<li><a href="#Campus-Course-Management-Centre_for_Strategic_Management">Centre for Strategic Management</a></li>
+	<li><a href="#Campus-Course-Management-Economics">Economics</a></li>
+	<li><a href="#Campus-Course-Management-Graduate_Management_School">Graduate Management School</a></li>
+	<li><a href="#Campus-Course-Management-Institute_for_Entrepreneurship_and_Enterprise_Development">Institute for Entrepreneurship and Enterprise Development</a></li>
+	<li><a href="#Campus-Course-Management-Management_Development_Division_Dept">Management Development Division Dept</a></li>
+	<li><a href="#Campus-Course-Management-Management_Learning_and_Leadership">Management Learning and Leadership</a></li>
+	<li><a href="#Campus-Course-Management-Management_School_UG_Office">Management School UG Office</a></li>
+	<li><a href="#Campus-Course-Management-Management_Science">Management Science</a></li>
+	<li><a href="#Campus-Course-Management-Marketing">Marketing</a></li>
+	<li><a href="#Campus-Course-Management-Organisation_Work_and_Technology">Organisation Work and Technology</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Science_and_Technology subpage:-->
+<ul id="Campus-Course-Science_and_Technology" title="Science and Technology">
+	<li><a href="#Campus-Course-Science_and_Technology-Communications_Systems">Communications Systems</a></li>
+	<li><a href="#Campus-Course-Science_and_Technology-Computing">Computing</a></li>
+	<li><a href="#Campus-Course-Science_and_Technology-Division_of_Biomedical_and_Life_Sciences">Division of Biomedical and Life Sciences</a></li>
+	<li><a href="#Campus-Course-Science_and_Technology-Engineering">Engineering</a></li>
+	<li><a href="#Campus-Course-Science_and_Technology-ICT_Focus">ICT Focus</a></li>
+	<li><a href="#Campus-Course-Science_and_Technology-Lancaster_Environment_Centre">Lancaster Environment Centre</a></li>
+	<li><a href="#Campus-Course-Science_and_Technology-Mathematics">Mathematics</a></li>
+	<li><a href="#Campus-Course-Science_and_Technology-Physics">Physics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Societies-Academic subpage:-->
+<ul id="Campus-Societies-Academic" title="Academic">
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Societies-Arts_and_Performance subpage:-->
+<ul id="Campus-Societies-Arts_and_Performance" title="Arts and Performance">
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Societies-Cultural subpage:-->
+<ul id="Campus-Societies-Cultural" title="Cultural">
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Societies-Outdoor_and_Physical subpage:-->
+<ul id="Campus-Societies-Outdoor_and_Physical" title="Outdoor and Physical">
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Societies-Political subpage:-->
+<ul id="Campus-Societies-Political" title="Political">
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Societies-Recreational subpage:-->
+<ul id="Campus-Societies-Recreational" title="Recreational">
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Societies-Religious subpage:-->
+<ul id="Campus-Societies-Religious" title="Religious">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Societies/Religious/Christian_Union.webloc" target="_self">Christian_Union.webloc</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Arts_and_Social_Sciences-Applied_Social_Science subpage:-->
+<ul id="Campus-Course-Arts_and_Social_Sciences-Applied_Social_Science" title="Applied Social Science">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Applied_Social_Science/ASSC1.ics" target="_self">ASSC1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Applied_Social_Science/ASSC2.ics" target="_self">ASSC2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Applied_Social_Science/ASSC3.ics" target="_self">ASSC3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Applied_Social_Science/ASSC4.ics" target="_self">ASSC4.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Arts_and_Social_Sciences-English_and_Creative_Writing subpage:-->
+<ul id="Campus-Course-Arts_and_Social_Sciences-English_and_Creative_Writing" title="English and Creative Writing">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/English_and_Creative_Writing/CREW.ics" target="_self">CREW.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/English_and_Creative_Writing/CREW1.ics" target="_self">CREW1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/English_and_Creative_Writing/CREW2.ics" target="_self">CREW2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/English_and_Creative_Writing/CREW3.ics" target="_self">CREW3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/English_and_Creative_Writing/ECW3.ics" target="_self">ECW3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/English_and_Creative_Writing/ENGL.ics" target="_self">ENGL.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/English_and_Creative_Writing/ENGL1.ics" target="_self">ENGL1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/English_and_Creative_Writing/ENGL2.ics" target="_self">ENGL2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/English_and_Creative_Writing/ENGL3.ics" target="_self">ENGL3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/English_and_Creative_Writing/ENGL4.ics" target="_self">ENGL4.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Arts_and_Social_Sciences-European_Langugaes_and_Cultures subpage:-->
+<ul id="Campus-Course-Arts_and_Social_Sciences-European_Langugaes_and_Cultures" title="European Langugaes and Cultures">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/CATL.ics" target="_self">CATL.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/CATL2.ics" target="_self">CATL2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/CATL3.ics" target="_self">CATL3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/EURO2.ics" target="_self">EURO2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/EURO3.ics" target="_self">EURO3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/FREN1.ics" target="_self">FREN1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/FREN2.ics" target="_self">FREN2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/FREN3.ics" target="_self">FREN3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/GERM.ics" target="_self">GERM.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/GERM1.ics" target="_self">GERM1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/GERM2.ics" target="_self">GERM2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/GERM3.ics" target="_self">GERM3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/ITAL1.ics" target="_self">ITAL1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/ITAL2.ics" target="_self">ITAL2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/ITAL3.ics" target="_self">ITAL3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/MED2.ics" target="_self">MED2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/SPAN1.ics" target="_self">SPAN1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/SPAN2.ics" target="_self">SPAN2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/European_Langugaes_and_Cultures/SPAN3.ics" target="_self">SPAN3.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Arts_and_Social_Sciences-Faculty_of_Arts_and_Social_Sciences_PG_Office subpage:-->
+<ul id="Campus-Course-Arts_and_Social_Sciences-Faculty_of_Arts_and_Social_Sciences_PG_Office" title="Faculty of Arts and Social Sciences PG Office">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Faculty_of_Arts_and_Social_Sciences_PG_Office/FASS5.ics" target="_self">FASS5.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Arts_and_Social_Sciences-History subpage:-->
+<ul id="Campus-Course-Arts_and_Social_Sciences-History" title="History">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/History/AMST3.ics" target="_self">AMST3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/History/HIST1.ics" target="_self">HIST1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/History/HIST2.ics" target="_self">HIST2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/History/HIST3.ics" target="_self">HIST3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/History/HIST4.ics" target="_self">HIST4.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/History/HIST5.ics" target="_self">HIST5.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Arts_and_Social_Sciences-Lancaster_Institute_for_the_Contemporary_Arts subpage:-->
+<ul id="Campus-Course-Arts_and_Social_Sciences-Lancaster_Institute_for_the_Contemporary_Arts" title="Lancaster Institute for the Contemporary Arts">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/AMST3.ics" target="_self">AMST3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/ART1.ics" target="_self">ART1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/ART2.ics" target="_self">ART2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/ART3.ics" target="_self">ART3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/CIR4.ics" target="_self">CIR4.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/CULT.ics" target="_self">CULT.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/CULT1.ics" target="_self">CULT1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/CULT2.ics" target="_self">CULT2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/CULT3.ics" target="_self">CULT3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/DES1.ics" target="_self">DES1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/HIGH4.ics" target="_self">HIGH4.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/IMAG4.ics" target="_self">IMAG4.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/LICA.ics" target="_self">LICA.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/LICA4.ics" target="_self">LICA4.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/MUSC1.ics" target="_self">MUSC1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/MUSC2.ics" target="_self">MUSC2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/MUSC3.ics" target="_self">MUSC3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/THEA.ics" target="_self">THEA.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/THEA1.ics" target="_self">THEA1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/THEA2.ics" target="_self">THEA2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Lancaster_Institute_for_the_Contemporary_Arts/THEA3.ics" target="_self">THEA3.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Arts_and_Social_Sciences-Law subpage:-->
+<ul id="Campus-Course-Arts_and_Social_Sciences-Law" title="Law">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Law/LAW1.ics" target="_self">LAW1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Law/LAW2.ics" target="_self">LAW2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Law/LAW3.ics" target="_self">LAW3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Law/LLM5.ics" target="_self">LLM5.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Arts_and_Social_Sciences-Linguistics_and_English_Language subpage:-->
+<ul id="Campus-Course-Arts_and_Social_Sciences-Linguistics_and_English_Language" title="Linguistics and English Language">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Linguistics_and_English_Language/LING1.ics" target="_self">LING1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Linguistics_and_English_Language/LING2.ics" target="_self">LING2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Linguistics_and_English_Language/LING3.ics" target="_self">LING3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Linguistics_and_English_Language/LING4.ics" target="_self">LING4.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Arts_and_Social_Sciences-Media_Film_and_Cultural_Studies subpage:-->
+<ul id="Campus-Course-Arts_and_Social_Sciences-Media_Film_and_Cultural_Studies" title="Media Film and Cultural Studies">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Media_Film_and_Cultural_Studies/CULT.ics" target="_self">CULT.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Media_Film_and_Cultural_Studies/CULT1.ics" target="_self">CULT1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Media_Film_and_Cultural_Studies/CULT2.ics" target="_self">CULT2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Media_Film_and_Cultural_Studies/CULT3.ics" target="_self">CULT3.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Arts_and_Social_Sciences-Philosophy subpage:-->
+<ul id="Campus-Course-Arts_and_Social_Sciences-Philosophy" title="Philosophy">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Philosophy/PHIL1.ics" target="_self">PHIL1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Philosophy/PHIL2.ics" target="_self">PHIL2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Philosophy/PHIL3.ics" target="_self">PHIL3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Philosophy/PHIL5.ics" target="_self">PHIL5.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Arts_and_Social_Sciences-Politics_Philosophy_and_Religion subpage:-->
+<ul id="Campus-Course-Arts_and_Social_Sciences-Politics_Philosophy_and_Religion" title="Politics Philosophy and Religion">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Politics_Philosophy_and_Religion/PCON2.ics" target="_self">PCON2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Politics_Philosophy_and_Religion/PCON3.ics" target="_self">PCON3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Politics_Philosophy_and_Religion/PHIL1.ics" target="_self">PHIL1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Politics_Philosophy_and_Religion/PHIL2.ics" target="_self">PHIL2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Politics_Philosophy_and_Religion/PHIL3.ics" target="_self">PHIL3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Politics_Philosophy_and_Religion/PHIL5.ics" target="_self">PHIL5.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Politics_Philosophy_and_Religion/POLI1.ics" target="_self">POLI1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Politics_Philosophy_and_Religion/POLI2.ics" target="_self">POLI2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Politics_Philosophy_and_Religion/POLI3.ics" target="_self">POLI3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Politics_Philosophy_and_Religion/POLI4.ics" target="_self">POLI4.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Arts_and_Social_Sciences-Politics_and_International_Relations subpage:-->
+<ul id="Campus-Course-Arts_and_Social_Sciences-Politics_and_International_Relations" title="Politics and International Relations">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Politics_and_International_Relations/POLI1.ics" target="_self">POLI1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Politics_and_International_Relations/POLI2.ics" target="_self">POLI2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Politics_and_International_Relations/POLI3.ics" target="_self">POLI3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Politics_and_International_Relations/POLI4.ics" target="_self">POLI4.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Arts_and_Social_Sciences-Psychology subpage:-->
+<ul id="Campus-Course-Arts_and_Social_Sciences-Psychology" title="Psychology">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Psychology/PSYC1.ics" target="_self">PSYC1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Psychology/PSYC2.ics" target="_self">PSYC2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Psychology/PSYC3.ics" target="_self">PSYC3.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Arts_and_Social_Sciences-Religious_Studies subpage:-->
+<ul id="Campus-Course-Arts_and_Social_Sciences-Religious_Studies" title="Religious Studies">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Religious_Studies/EPR1.ics" target="_self">EPR1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Religious_Studies/RST1.ics" target="_self">RST1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Religious_Studies/RST2.ics" target="_self">RST2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Religious_Studies/RST3.ics" target="_self">RST3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Religious_Studies/RST4.ics" target="_self">RST4.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Arts_and_Social_Sciences-Sociology subpage:-->
+<ul id="Campus-Course-Arts_and_Social_Sciences-Sociology" title="Sociology">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Sociology/GWS1.ics" target="_self">GWS1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Sociology/GWS4.ics" target="_self">GWS4.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Sociology/SOCL.ics" target="_self">SOCL.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Sociology/SOCL1.ics" target="_self">SOCL1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Sociology/SOCL2.ics" target="_self">SOCL2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Sociology/SOCL3.ics" target="_self">SOCL3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Arts_and_Social_Sciences/Sociology/SOCL5.ics" target="_self">SOCL5.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Lifelong_Learning_and_Widening_Participation-Educational_Research subpage:-->
+<ul id="Campus-Course-Lifelong_Learning_and_Widening_Participation-Educational_Research" title="Educational Research">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Lifelong_Learning_and_Widening_Participation/Educational_Research/PINE1.ics" target="_self">PINE1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Lifelong_Learning_and_Widening_Participation/Educational_Research/PINE2.ics" target="_self">PINE2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Lifelong_Learning_and_Widening_Participation/Educational_Research/PINE3.ics" target="_self">PINE3.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Management-Accounting_and_Finance subpage:-->
+<ul id="Campus-Course-Management-Accounting_and_Finance" title="Accounting and Finance">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Accounting_and_Finance/ACF.ics" target="_self">ACF.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Accounting_and_Finance/ACF1.ics" target="_self">ACF1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Accounting_and_Finance/ACF2.ics" target="_self">ACF2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Accounting_and_Finance/ACF3.ics" target="_self">ACF3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Accounting_and_Finance/ACF5.ics" target="_self">ACF5.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Management-Centre_for_Strategic_Management subpage:-->
+<ul id="Campus-Course-Management-Centre_for_Strategic_Management" title="Centre for Strategic Management">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Centre_for_Strategic_Management/MNGT.ics" target="_self">MNGT.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Centre_for_Strategic_Management/MNGT1.ics" target="_self">MNGT1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Centre_for_Strategic_Management/MNGT2.ics" target="_self">MNGT2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Centre_for_Strategic_Management/MNGT3.ics" target="_self">MNGT3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Centre_for_Strategic_Management/MNGT5.ics" target="_self">MNGT5.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Management-Economics subpage:-->
+<ul id="Campus-Course-Management-Economics" title="Economics">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Economics/ECON1.ics" target="_self">ECON1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Economics/ECON2.ics" target="_self">ECON2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Economics/ECON3.ics" target="_self">ECON3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Economics/ECON4.ics" target="_self">ECON4.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Management-Graduate_Management_School subpage:-->
+<ul id="Campus-Course-Management-Graduate_Management_School" title="Graduate Management School">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Graduate_Management_School/EBIN.ics" target="_self">EBIN.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Graduate_Management_School/EBIN5.ics" target="_self">EBIN5.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Graduate_Management_School/FMBA5.ics" target="_self">FMBA5.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Graduate_Management_School/ITO.ics" target="_self">ITO.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Graduate_Management_School/MNGT.ics" target="_self">MNGT.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Graduate_Management_School/MNGT1.ics" target="_self">MNGT1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Graduate_Management_School/MNGT2.ics" target="_self">MNGT2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Graduate_Management_School/MNGT3.ics" target="_self">MNGT3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Graduate_Management_School/MNGT5.ics" target="_self">MNGT5.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Management-Institute_for_Entrepreneurship_and_Enterprise_Development subpage:-->
+<ul id="Campus-Course-Management-Institute_for_Entrepreneurship_and_Enterprise_Development" title="Institute for Entrepreneurship and Enterprise Development">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Institute_for_Entrepreneurship_and_Enterprise_Development/ENTR1.ics" target="_self">ENTR1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Institute_for_Entrepreneurship_and_Enterprise_Development/ENTR2.ics" target="_self">ENTR2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Institute_for_Entrepreneurship_and_Enterprise_Development/ENTR3.ics" target="_self">ENTR3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Institute_for_Entrepreneurship_and_Enterprise_Development/IEED5.ics" target="_self">IEED5.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Management-Management_Development_Division_Dept subpage:-->
+<ul id="Campus-Course-Management-Management_Development_Division_Dept" title="Management Development Division Dept">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Development_Division_Dept/MDD5.ics" target="_self">MDD5.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Development_Division_Dept/MNGT.ics" target="_self">MNGT.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Development_Division_Dept/MNGT1.ics" target="_self">MNGT1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Development_Division_Dept/MNGT2.ics" target="_self">MNGT2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Development_Division_Dept/MNGT3.ics" target="_self">MNGT3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Development_Division_Dept/MNGT5.ics" target="_self">MNGT5.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Management-Management_Learning_and_Leadership subpage:-->
+<ul id="Campus-Course-Management-Management_Learning_and_Leadership" title="Management Learning and Leadership">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Learning_and_Leadership/HRDC5.ics" target="_self">HRDC5.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Learning_and_Leadership/MNGT.ics" target="_self">MNGT.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Learning_and_Leadership/MNGT1.ics" target="_self">MNGT1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Learning_and_Leadership/MNGT2.ics" target="_self">MNGT2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Learning_and_Leadership/MNGT3.ics" target="_self">MNGT3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Learning_and_Leadership/MNGT5.ics" target="_self">MNGT5.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Management-Management_School_UG_Office subpage:-->
+<ul id="Campus-Course-Management-Management_School_UG_Office" title="Management School UG Office">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_School_UG_Office/MNGT.ics" target="_self">MNGT.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_School_UG_Office/MNGT1.ics" target="_self">MNGT1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_School_UG_Office/MNGT2.ics" target="_self">MNGT2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_School_UG_Office/MNGT3.ics" target="_self">MNGT3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_School_UG_Office/MNGT5.ics" target="_self">MNGT5.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Management-Management_Science subpage:-->
+<ul id="Campus-Course-Management-Management_Science" title="Management Science">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Science/MNGT.ics" target="_self">MNGT.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Science/MNGT1.ics" target="_self">MNGT1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Science/MNGT2.ics" target="_self">MNGT2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Science/MNGT3.ics" target="_self">MNGT3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Science/MNGT5.ics" target="_self">MNGT5.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Science/MSCI.ics" target="_self">MSCI.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Science/MSCI1.ics" target="_self">MSCI1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Science/MSCI2.ics" target="_self">MSCI2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Science/MSCI3.ics" target="_self">MSCI3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Science/MSCI5.ics" target="_self">MSCI5.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Science/PJTM.ics" target="_self">PJTM.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Management_Science/PJTM5.ics" target="_self">PJTM5.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Management-Marketing subpage:-->
+<ul id="Campus-Course-Management-Marketing" title="Marketing">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Marketing/MKTG1.ics" target="_self">MKTG1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Marketing/MKTG2.ics" target="_self">MKTG2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Marketing/MKTG3.ics" target="_self">MKTG3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Marketing/MKTG4.ics" target="_self">MKTG4.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Management-Organisation_Work_and_Technology subpage:-->
+<ul id="Campus-Course-Management-Organisation_Work_and_Technology" title="Organisation Work and Technology">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Organisation_Work_and_Technology/MNGT.ics" target="_self">MNGT.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Organisation_Work_and_Technology/MNGT1.ics" target="_self">MNGT1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Organisation_Work_and_Technology/MNGT2.ics" target="_self">MNGT2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Organisation_Work_and_Technology/MNGT3.ics" target="_self">MNGT3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Organisation_Work_and_Technology/MNGT5.ics" target="_self">MNGT5.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Organisation_Work_and_Technology/OWT.ics" target="_self">OWT.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Organisation_Work_and_Technology/OWT1.ics" target="_self">OWT1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Organisation_Work_and_Technology/OWT2.ics" target="_self">OWT2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Organisation_Work_and_Technology/OWT3.ics" target="_self">OWT3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Management/Organisation_Work_and_Technology/OWT5.ics" target="_self">OWT5.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Science_and_Technology-Communications_Systems subpage:-->
+<ul id="Campus-Course-Science_and_Technology-Communications_Systems" title="Communications Systems">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Communications_Systems/DCS1.ics" target="_self">DCS1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Communications_Systems/DCS2.ics" target="_self">DCS2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Communications_Systems/DCS3.ics" target="_self">DCS3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Communications_Systems/DCS4.ics" target="_self">DCS4.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Science_and_Technology-Computing subpage:-->
+<ul id="Campus-Course-Science_and_Technology-Computing" title="Computing">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Computing/CSC1.ics" target="_self">CSC1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Computing/CSC2.ics" target="_self">CSC2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Computing/CSC3.ics" target="_self">CSC3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Computing/CSM.ics" target="_self">CSM.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Computing/HIGH4.ics" target="_self">HIGH4.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Computing/ICTF3.ics" target="_self">ICTF3.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Science_and_Technology-Division_of_Biomedical_and_Life_Sciences subpage:-->
+<ul id="Campus-Course-Science_and_Technology-Division_of_Biomedical_and_Life_Sciences" title="Division of Biomedical and Life Sciences">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Division_of_Biomedical_and_Life_Sciences/BIOL1.ics" target="_self">BIOL1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Division_of_Biomedical_and_Life_Sciences/BIOL2.ics" target="_self">BIOL2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Division_of_Biomedical_and_Life_Sciences/BIOL3.ics" target="_self">BIOL3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Division_of_Biomedical_and_Life_Sciences/BIOL4.ics" target="_self">BIOL4.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Science_and_Technology-Engineering subpage:-->
+<ul id="Campus-Course-Science_and_Technology-Engineering" title="Engineering">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Engineering/ENGR1.ics" target="_self">ENGR1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Engineering/ENGR2.ics" target="_self">ENGR2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Engineering/ENGR3.ics" target="_self">ENGR3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Engineering/ENGR4.ics" target="_self">ENGR4.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Engineering/ENGR5.ics" target="_self">ENGR5.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Engineering/MATH1.ics" target="_self">MATH1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Engineering/MATH2.ics" target="_self">MATH2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Engineering/MATH3.ics" target="_self">MATH3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Engineering/MATH4.ics" target="_self">MATH4.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Science_and_Technology-ICT_Focus subpage:-->
+<ul id="Campus-Course-Science_and_Technology-ICT_Focus" title="ICT Focus">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/ICT_Focus/ICTF3.ics" target="_self">ICTF3.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Science_and_Technology-Lancaster_Environment_Centre subpage:-->
+<ul id="Campus-Course-Science_and_Technology-Lancaster_Environment_Centre" title="Lancaster Environment Centre">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Lancaster_Environment_Centre/BIOL1.ics" target="_self">BIOL1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Lancaster_Environment_Centre/BIOL2.ics" target="_self">BIOL2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Lancaster_Environment_Centre/BIOL3.ics" target="_self">BIOL3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Lancaster_Environment_Centre/BIOL4.ics" target="_self">BIOL4.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Lancaster_Environment_Centre/CHEM1.ics" target="_self">CHEM1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Lancaster_Environment_Centre/CHEM2.ics" target="_self">CHEM2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Lancaster_Environment_Centre/ECOL2.ics" target="_self">ECOL2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Lancaster_Environment_Centre/ECOL3.ics" target="_self">ECOL3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Lancaster_Environment_Centre/ECOL4.ics" target="_self">ECOL4.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Lancaster_Environment_Centre/ENV1.ics" target="_self">ENV1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Lancaster_Environment_Centre/ENV2.ics" target="_self">ENV2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Lancaster_Environment_Centre/ENV3.ics" target="_self">ENV3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Lancaster_Environment_Centre/ENV4.ics" target="_self">ENV4.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Lancaster_Environment_Centre/GEOG1.ics" target="_self">GEOG1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Lancaster_Environment_Centre/GEOG2.ics" target="_self">GEOG2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Lancaster_Environment_Centre/GEOG3.ics" target="_self">GEOG3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Lancaster_Environment_Centre/GEOG4.ics" target="_self">GEOG4.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Lancaster_Environment_Centre/LEC.ics" target="_self">LEC.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Science_and_Technology-Mathematics subpage:-->
+<ul id="Campus-Course-Science_and_Technology-Mathematics" title="Mathematics">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Mathematics/MATH1.ics" target="_self">MATH1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Mathematics/MATH2.ics" target="_self">MATH2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Mathematics/MATH3.ics" target="_self">MATH3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Mathematics/MATH4.ics" target="_self">MATH4.ics</a></li>
+</ul>
+<!--End subpage:-->
+<!--Begin Campus-Course-Science_and_Technology-Physics subpage:-->
+<ul id="Campus-Course-Science_and_Technology-Physics" title="Physics">
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Physics/PHYS1.ics" target="_self">PHYS1.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Physics/PHYS2.ics" target="_self">PHYS2.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Physics/PHYS3.ics" target="_self">PHYS3.ics</a></li>
+	<li><a href="http://lancasteruniversal.appspot.com/calendar/Campus/Course/Science_and_Technology/Physics/PHYS4.ics" target="_self">PHYS4.ics</a></li>
+</ul>
+<!--End subpage:-->
+</body>
+
+</html>
+
